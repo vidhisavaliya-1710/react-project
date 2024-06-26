@@ -1,0 +1,103 @@
+@media screen and (max-width:425px) {
+    .silder h1{
+        font-size: 35px !important;
+    }
+    .silder p{
+        font-size: 12px !important;
+    }
+    .silder button{
+        padding: none !important;
+        font-size: 16px !important;
+    }
+    .about_txt h1{
+        font-size: 35px !important;
+    }
+    .btn{
+        font-size: 16px !important;
+    }
+    .reservation_sec{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:768px){
+    .btn{
+        width: 25% !important;
+        padding-left: 15px !important;
+        margin-left: none !important;
+    }
+    .silder{
+        text-align: center !important;
+    }
+    .silder h1{
+        font-size: 65px !important;
+    }
+    .silder p{
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+    .silder button{
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin-bottom: 20px;
+    }
+    .silder_img{
+        width: 100% !important;
+    }
+    .nav_sec{
+        margin-left: 100px !important;
+        width: 70% !important;
+    }
+    .food_sec h4::before{
+        left: 330px !important;
+    }
+    .food_sec h4::after{
+        left: 460px !important;
+    }
+    .btn1{
+        width: 100% !important;
+    }
+    .detaile_sec{
+        margin-bottom: 10px !important;
+    }
+    .team_detail{
+        margin-bottom: 20px !important;
+    }
+}
+@media screen and (max-width:1024px) {
+    .silder_img{
+        width: 85% !important;
+    }
+    .silder h1{
+        font-size: 50px !important;
+    }
+    .about_img{
+        width: 95%;
+    }
+    .about_txt h1{
+        font-size: 35px;
+    }
+    .about_txt p{
+        font-size: 16px !important;
+    }
+    .about_cnt h1{
+        font-size: 50px !important;
+    }
+    .about_cnt p{
+        line-height: 5px !important;
+    }
+    .about_cnt h6{
+        line-height: 18px !important;
+    }
+    .nav_sec{
+        margin-left: 200px;
+        width: 60% !important;
+    }
+    .food_sec h4::before{
+        left: 330px !important;
+    }
+    .food_sec h4::after{
+        left: 560px !important;
+    }
+}
